@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./addStore.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>addStore</title>
+  </head>
+  <body id="bodyClass">
+    <header>
+      <div class="header-city">
+        <div class="header-firstBlock">
+          <div class="header-firstBlock-one">
+            <li>C</li>
+            <li>L</li>
+            <li>O</li>
+            <li>V</li>
+            <li>E</li>
+            <li>R</li>
+          </div>
+          <div class="header-firstBlock-two">
+            <div class="heart"></div>
+          </div>
+          <div></div>
+        </div>
+
+        <div class="header-secindBlock">
+          <div class="header-secindBlock-one">
+            <li><a href="#addStoreText">ADD STORE</a></li>
+            <li><a href="../addMeal/addMeal.html">ADD MEAL</a></li>
+            <li><a href="../reviseStore/reviseStore.html">REVISE STORE</a></li>
+            <li>
+              <a href="../reviseMealComment/reviseMealComment.html"
+                >REVISE MEAL COMMENT</a
+              >
+            </li>
+            <li><a href="../search/search.html">SEARCH</a></li>
+            <li><a href="#">BLOG</a></li>
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="../homePage/homePage.html">HOME</a></li>
+          </div>
+          <div class="header-secindBlock-two">
+            <div class="header-secindBlock-two-first">満月の夜には</div>
+            <div class="header-secindBlock-two-first">
+              美味しい食事とお酒で乾杯
+            </div>
+          </div>
+          <div></div>
+        </div>
+
+        <div class="header-thirdBlock">
+          <div class="header-thirdBlock-one">
+            <h2>CLOVER</h2>
+            <h1>GOURMET MAP</h1>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="container-title">
+        <div class="heart2"></div>
+        <p id="addStoreText" class="container-title-text">ADD STORE</p>
+      </div>
+      <div class="formBlock">
+        <div class="formBlock-border">
+          <form action="" method="get" class="form-example">
+            <div class="form-example">
+              <label for="storeName">STORE NAME</label><br />
+              <input type="text" name="name" id="storeName" required />
+            </div>
+            <div class="form-example">
+              <label for="cityName">STORE CITY</label><br />
+              <input type="text" name="text" id="cityName" required />
+            </div>
+            <div class="form-example-btn">
+              <input id="AddBtn" class="btn-72" type="button" value="ADD" />
+            </div>
+          </form>
+          <div id="userAnswerGroup" class="formBlock-border-userAns">
+            <div class="formBlock-border-userAns-one" id="answerMsg"></div>
+            <div class="formBlock-border-userAns-contain" id="userAnswer"></div>
+            <div class="btnGroup">
+              <button class="btn-20" id="btnbtnclose">好</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-thirdBlock"></div>
+    </div>
+
+    <footer>
+      <div class="footer-city">
+        <div class="footer-block">
+          <span class="footer-block-text">LA CUISINE RAFFINÉE</span>
+          <span class="footer-block-text2">UNE BELLE JOURNÉE</span>
+          <span class="footer-block-text3">CLOVER</span>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="./connectionAddStore.js"></script>
+    <script type="module" src="./addStore.js"></script>
+  </body>
+</html>
